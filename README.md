@@ -47,16 +47,13 @@ This project is a simple shopping cart implemented using **Node.js** and **Expre
 - Calculate cart subtotal, tax (12.5%), and total payable amount
 - Simple API structure following best practice.
 
-## 🏗️ Assumptions & Tradeoffs
-
 ### Assumptions:
 
-1. The Price API returns a valid response for every product.
-2. Products exist in the Price API, and no validation is required on our end.
-3. The shopping cart does not persist data; it resets on server restart.
+1. Products exist in the Price API, and no validation is required on our end.
+2. The shopping cart does not persist data; it resets on server restart.
 
 ### Tradeoffs:
 
-- No database is used for storage (simplifies implementation).
+- No database is used for storage.
 - The API does not include authentication for simplicity.
 
