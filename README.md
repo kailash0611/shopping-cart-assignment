@@ -28,11 +28,11 @@ This project is a simple shopping cart implemented using **Node.js** and **Expre
 
 1️⃣ Add Products to Cart
 #### Endpoint: POST /cart/add
-![alt text](http://url/to/img.png)
+![Postman Post](addToCart.png)
 
 2️⃣ View Cart Summary
 #### Endpoint: GET /cart
-![alt text](http://url/to/img.png)
+![Postman Get](getCartDetails.png)
 
 ## Using Postman:
 1. Start the server (npm start).
